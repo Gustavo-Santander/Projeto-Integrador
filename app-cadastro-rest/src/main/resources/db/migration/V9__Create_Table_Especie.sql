@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `especie` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome_especie` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB;

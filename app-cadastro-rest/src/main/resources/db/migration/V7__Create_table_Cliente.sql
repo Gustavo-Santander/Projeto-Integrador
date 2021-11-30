@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS `cliente` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(45) NOT NULL,
+  `telefone` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `rua` VARCHAR(45) NOT NULL,
+  `cidade` VARCHAR(45) NOT NULL,
+  `estado` VARCHAR(45) NOT NULL,
+  `cep` VARCHAR(45) NOT NULL,
+  PRIMARY KEY(id)
+);

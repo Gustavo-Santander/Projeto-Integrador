@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `raca` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome_raca` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB;
