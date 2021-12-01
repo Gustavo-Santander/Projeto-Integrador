@@ -43,7 +43,7 @@ public class ClienteHasServicoController {
 		
 		var sortDirection = "desc".equalsIgnoreCase(direction) ? Direction.DESC:Direction.ASC;
 		
-		Pageable pageable = PageRequest.of(page, limit,Sort.by(sortDirection, "nome"));
+		Pageable pageable = PageRequest.of(page, limit,Sort.by(sortDirection, "data"));
 		
 		Page<ClienteHasServicoVO> clienteHasServicoVO = service.buscarTodos(pageable);
 		clienteHasServicoVO
